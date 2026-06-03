@@ -69,6 +69,7 @@ hugoblox:
 
 links:
   - type: pdf
+    name: "arXiv PDF"
     url: "https://arxiv.org/pdf/2512.03182"
   - type: code
     url: "https://github.com/ZKI-PH-ImageAnalysis/Drainage"
@@ -76,6 +77,9 @@ links:
     url: "https://youtu.be/U8jF3Og9gwc?si=P_QGwmE_UDG0tVk1"
   - name: "Poster"
     url: "CVPR2026_Poster.pptx"
+  - name: "CVPR Virtual"
+    url: "https://cvpr.thecvf.com/virtual/2026/poster/39457"
+    icon: hero/computer-desktop
   - name: "arXiv"
     url: "https://arxiv.org/abs/2512.03182"
 ---
