@@ -1,0 +1,10 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('a.hb-attachment-link').forEach(function (a) {
+    if (a.protocol !== 'mailto:') {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', (a.getAttribute('rel') || '') + ' noopener'.trim());
+    }
+  });
+});
+</script>

@@ -1,0 +1,165 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Yasser Taha
+  given: Yasser
+  family: Taha
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+postnominals: []
+status:
+  icon: "🧬"
+role: Machine Learning Researcher · PhD Researcher
+bio: |
+  ML researcher with a track record from production-deployed systems to CVPR-highlighted fundamental research. Expertise in learning under label noise, structured classification, and probabilistic modelling — applied across autonomous systems, pharmaceutical recommender systems, and computational biology.
+
+affiliations:
+  - name: Robert Koch Institute
+    url: https://www.rki.de/
+  - name: Charité – Universitätsmedizin Berlin
+    url: https://www.charite.de/
+
+links:
+  - icon: at-symbol
+    url: mailto:tahay@rki.de
+    label: RKI Email
+  - icon: brands/linkedin
+    url: https://linkedin.com/in/yasser-taha-ml/
+  - icon: brands/github
+    url: https://github.com/yasser-taha
+  - icon: academicons/arxiv
+    url: https://arxiv.org/search/?searchtype=author&query=Taha%2C+Yasser
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=yX6Ei4MAAAAJ&hl=en
+
+interests:
+  - Deep Learning & Computer Vision
+  - Probabilistic & Bayesian Models
+  - Computational Biology
+  - Natural Language Processing
+  - Autonomous Systems
+
+education:
+  - degree: PhD Advanced Track
+    institution: RKI · Charité – Universitätsmedizin Berlin
+    start: 2024-10
+    summary: |
+      AI-driven detection of virus-infected cell cultures using imaging and
+      deep learning. Affiliated with the Robert Koch Institute.
+  - degree: MSc Data Science
+    institution: Johannes Kepler University Linz
+    start: 2017-09
+    end: 2018-07
+    summary: |
+      Thesis: "Trajectory Prediction in the Realm of Sparse Data".
+      Full Scholarship. Supervised by Prof. Sepp Hochreiter. Thesis GPA: 2.0.
+  - degree: BSc Mechatronics Engineering
+    institution: German University in Cairo
+    start: 2008-09
+    end: 2014-02
+    summary: |
+      Thesis: "Four Degrees of Freedom, Automated, Localized, and Mapped Robot."
+      Thesis GPA: 1.0 | Bachelor GPA: 2.0.
+
+experience:
+  - role: PhD Researcher
+    org: Robert Koch Institute
+    start: 2024-10-01
+    summary: |
+      Leading development of an AI-driven tool for identifying infected cell
+      cultures, including those caused by viruses with limited or no visible
+      cytopathic effect (CPE). Methods: ViLSTM, Vision Transformer, Conformal Prediction.
+  - role: Machine Learning Researcher
+    org: HB-DX Diagnostics
+    start: 2021-04-01
+    end: 2024-07-01
+    summary: |
+      Discovery of RNA biomarkers for early lung cancer detection from blood
+      biopsy (0.76–0.81 AUCROC). Developed the TransfoRNA explainable ML
+      framework. Methods: Transformers, Explainability, Contrastive Learning, Multimodality.
+  - role: Machine Learning R&D Engineer
+    org: Cognigy
+    start: 2020-10-01
+    end: 2021-04-01
+    summary: |
+      Developed ConveRT's state-of-the-art language model for intent detection.
+      Methods: NLP, Transformers, Unsupervised Learning, Generative Models.
+  - role: Machine Learning Researcher
+    org: STTech (TUM)
+    start: 2019-10-01
+    end: 2020-09-01
+    summary: |
+      Pharmaceutical cross-selling recommender system deployed in production at
+      Pharmatechnic. Methods: Bayesian Statistics, GNNs, Autoencoders, Contrastive Learning.
+  - role: Research Assistant
+    org: Institute of Machine Learning, JKU Linz
+    start: 2018-08-01
+    end: 2019-09-01
+    summary: |
+      Supervised by Prof. Sepp Hochreiter. Unsupervised depth estimation from
+      monocular image sequences. Methods: Computer Vision, Flow Nets, Convolutional Autoencoders.
+  - role: Algorithm Engineer — Autonomous Vehicles
+    org: Valeo
+    start: 2016-07-01
+    end: 2017-08-01
+    summary: |
+      LiDAR calibration and 3D point cloud ground detection deployed in production.
+      Methods: Computational Geometry, 3D Point Cloud, Kalman Filters.
+  - role: Teaching Assistant
+    org: German University in Cairo
+    start: 2014-05-01
+    end: 2015-09-01
+    summary: |
+      Teaching: Sensor Technology, Pneumatics, and PLC.
+
+skills:
+  - name: Programming & Tools
+    items:
+      - label: Python
+        level: 5
+      - label: PyTorch / TensorFlow
+        level: 5
+      - label: R / Statistics
+        level: 4
+      - label: Docker / Kubernetes / Unix
+        level: 4
+  - name: Research Areas
+    items:
+      - label: Deep Learning
+        level: 5
+      - label: Computer Vision
+        level: 5
+      - label: Bayesian Statistics
+        level: 4
+      - label: Computational Biology
+        level: 4
+
+languages:
+  - name: English
+    level: 5
+    label: Fluent (C2)
+  - name: German
+    level: 4
+    label: Proficient (C1)
+  - name: Arabic (Egyptian)
+    level: 5
+    label: Native
+
+awards:
+  - title: Highlight Paper — CVPR 2026
+    awarder: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+    date: "2026-06-01"
+    summary: |
+      "Drainage: A Unifying Framework for Addressing Class Uncertainty"
+      selected as a Highlight paper at CVPR 2026 (~top 3.5% of submissions).
+    icon: hero/trophy
+  - title: Full Scholarship — MSc Data Science
+    awarder: Johannes Kepler University Linz
+    date: "2017-09-01"
+    summary: Full scholarship for the MSc Data Science programme.
+  - title: Full Scholarship — PgDip Embedded Systems
+    awarder: Information Technology Institute (funded by Valeo & IBM)
+    date: "2015-10-01"
+    summary: Fully funded postgraduate diploma in Embedded Systems.

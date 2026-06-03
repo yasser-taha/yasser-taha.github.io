@@ -1,0 +1,33 @@
+{{ $item := .item }}
+{{ $page := .page }}
+{{ $summary := partial "functions/get_summary" $item }}
+{{ $summary = $summary | page.RenderString }}
+{{ $displayDate := .item.Params.event_start | default .item.Date }}
+<article class="py-4 sm:grid sm:grid-cols-4 sm:gap-x-6 sm:items-start">
+  <time
+    class="hidden sm:block text-sm text-zinc-400 dark:text-zinc-500 pt-0.5 shrink-0"
+    datetime="{{ time.Format "2006-01-02" $displayDate }}">
+    {{ time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") $displayDate }}
+  </time>
+  <div class="sm:col-span-3 flex flex-col">
+    <time
+      class="sm:hidden text-xs text-zinc-400 dark:text-zinc-500 mb-1"
+      datetime="{{ time.Format "2006-01-02" $displayDate }}">
+      {{ time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") $displayDate }}
+    </time>
+    <p class="text-sm font-semibold text-zinc-800 dark:text-zinc-100">{{$item.Title}}</p>
+    {{ with $item.Params.awards }}
+    <div class="mt-1">
+      {{ partial "components/award_badge.html" (dict "award" (index . 0) "page" $item "variant" "pill") }}
+    </div>
+    {{ end }}
+    <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{{$summary}}</p>
+    {{ with $item.Params.links }}
+    <div class="mt-2 flex flex-wrap gap-x-4 gap-y-1">
+      {{ range . }}
+      <a href="{{ .url }}" class="text-xs font-medium text-primary-500 hover:text-primary-600 dark:text-primary-400" target="_blank" rel="noopener noreferrer">{{ .name }} ↗</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</article>
