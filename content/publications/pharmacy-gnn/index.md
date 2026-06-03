@@ -1,5 +1,5 @@
 ---
-title: 'Graph CNN for a Pharmacy Cross-Selling Recommender System'
+title: 'Pharmasage: Graph CNN for a Pharmacy Cross-Selling Recommender System'
 
 authors:
   - "Franz Hell"
@@ -41,11 +41,11 @@ summary: >
   Pharmatechnic.
 
 tags:
-  - Graph Neural Networks
-  - Recommender Systems
   - Bayesian Statistics
-  - Pharmaceutical
-  - GCN
+  - GNNs
+  - Autoencoders
+  - Contrastive Learning
+  - Recommender Systems
 
 featured: true
 

@@ -43,12 +43,9 @@ summary: >
   regression, and multiple instance learning.
 
 tags:
-  - Deep Learning
-  - Loss Functions
-  - Structured Prediction
-  - Hierarchical Classification
-  - Ordinal Regression
-  - Multiple Instance Learning
+  - Structured Class Spaces
+  - Annotation Bias
+  - Structured Noise
 
 featured: true
 

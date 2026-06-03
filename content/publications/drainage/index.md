@@ -55,11 +55,9 @@ summary: >
   CIFAR-10/100 with instance-dependent noise. Highlighted at CVPR 2026.
 
 tags:
-  - Deep Learning
-  - Noisy Labels
-  - Out-of-Distribution Detection
-  - Classification
-  - Computer Vision
+  - Robust Losses
+  - Data Cleaning
+  - Open Set Recognition
 
 featured: true
 

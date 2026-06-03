@@ -15,6 +15,12 @@ publication:
 
 featured: true
 
+tags:
+  - Computer Vision
+  - Flow Nets
+  - Unsupervised Learning
+  - Convolutional Autoencoders
+
 abstract: >
   Supervised monocular depth estimation requires expensive ground-truth annotation.
   This work extends the DF-Net unsupervised framework — which jointly trains depth and

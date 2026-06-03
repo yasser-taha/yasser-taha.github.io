@@ -38,11 +38,9 @@ summary: >
 
 tags:
   - Small RNA
-  - Bioinformatics
-  - Transformers
+  - Multimodality
   - Explainability
-  - Contrastive Learning
-  - Computational Biology
+  - Contrastive Loss
 
 featured: true
 
