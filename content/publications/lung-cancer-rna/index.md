@@ -39,11 +39,8 @@ tags:
 
 featured: false
 
-hugoblox:
-  ids:
-    doi: 10.1016/j.jtho.2023.07.005
-
 links:
   - name: "Journal"
     url: "https://doi.org/10.1016/j.jtho.2023.07.005"
+    icon: hero/document-text
 ---

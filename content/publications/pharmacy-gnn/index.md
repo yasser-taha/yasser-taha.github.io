@@ -49,14 +49,9 @@ tags:
 
 featured: true
 
-hugoblox:
-  ids:
-    doi: 10.3390/info11110525
-
 links:
-  - type: pdf
-    url: "https://www.mdpi.com/2078-2489/11/11/525/pdf"
   - name: "Journal"
     url: "https://doi.org/10.3390/info11110525"
+    icon: hero/document-text
 ---
 > *I am currently working on a blog post with more details about this project — check back soon.*

@@ -44,14 +44,8 @@ tags:
 
 featured: true
 
-hugoblox:
-  ids:
-    doi: 10.1101/2024.06.19.599329
-
 links:
-  - type: pdf
-    url: "https://www.biorxiv.org/content/10.1101/2024.06.19.599329.full.pdf"
-  - name: "arXiv / BioRxiv"
+  - name: "bioRxiv"
     url: "https://doi.org/10.1101/2024.06.19.599329"
     icon: "academicons/biorxiv"
   - name: "Website"

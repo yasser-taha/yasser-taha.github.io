@@ -49,16 +49,11 @@ tags:
 
 featured: true
 
-hugoblox:
-  ids:
-    doi: 10.48550/arXiv.2605.28420
-
 links:
-  - type: pdf
-    url: "https://arxiv.org/pdf/2605.28420"
-  - type: code
-    url: "https://github.com/ZKI-PH-ImageAnalysis/Conveyance"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2605.28420"
+    icon: academicons/arxiv
+  - type: code
+    url: "https://github.com/ZKI-PH-ImageAnalysis/Conveyance"
 ---
 > *I am currently working on a blog post with more details about this project — check back soon.*

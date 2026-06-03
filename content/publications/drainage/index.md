@@ -61,24 +61,18 @@ tags:
 
 featured: true
 
-hugoblox:
-  ids:
-    doi: 10.48550/arXiv.2512.03182
-
 links:
-  - type: pdf
-    name: "arXiv PDF"
-    url: "https://arxiv.org/pdf/2512.03182"
+  - name: "arXiv"
+    url: "https://arxiv.org/abs/2512.03182"
+    icon: academicons/arxiv
+  - name: "CVPR"
+    url: "https://cvpr.thecvf.com/virtual/2026/poster/39457"
+    icon: hero/computer-desktop
   - type: code
     url: "https://github.com/ZKI-PH-ImageAnalysis/Drainage"
   - type: video
     url: "https://youtu.be/U8jF3Og9gwc?si=P_QGwmE_UDG0tVk1"
   - name: "Poster"
     url: "CVPR2026_Poster.pptx"
-  - name: "CVPR"
-    url: "https://cvpr.thecvf.com/virtual/2026/poster/39457"
-    icon: hero/computer-desktop
-  - name: "arXiv"
-    url: "https://arxiv.org/abs/2512.03182"
 ---
 > *I am currently working on a blog post with more details about this project — check back soon.*
