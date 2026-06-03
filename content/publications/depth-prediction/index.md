@@ -38,7 +38,7 @@ abstract: >
   supervision of Dr. Bernhard Nesslar and Prof. Sepp Hochreiter.*
 
 links:
-  - name: "Slides"
+  - name: "Presentation"
     url: "Unsupervised_Depth_Prediction_from_Monocular_Images.pdf"
     icon: hero/presentation-chart-bar
 ---

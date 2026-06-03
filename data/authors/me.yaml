@@ -45,6 +45,7 @@ education:
   - degree: PhD Advanced Track
     institution: RKI · Charité – Universitätsmedizin Berlin
     start: 2024-10
+    end: current
     summary: |
       AI-driven detection of virus-infected cell cultures using imaging and
       deep learning. Affiliated with the Robert Koch Institute.

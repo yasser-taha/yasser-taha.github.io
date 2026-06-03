@@ -1,27 +1,13 @@
-# Yasser Taha — Personal Website
+# Yasser Taha — Personal Academic Website
 
-Source code for **[yasser-taha.github.io](https://yasser-taha.github.io)** — my personal academic website.
+Personal website of **Yasser Taha**, Machine Learning Researcher at the Robert Koch Institute / Charité – Universitätsmedizin Berlin and PhD Researcher at Charité.
 
-Built with [Hugo](https://gohugo.io) and the [Hugo Blox Academic CV](https://github.com/HugoBlox/hugo-theme-academic-cv) theme.
+Live at: **[yasser-taha.github.io](https://yasser-taha.github.io)**
 
-## Stack
+Research interests: learning under label noise, structured classification, probabilistic modelling, computational biology, and computer vision.
 
-- **Hugo** (extended) — static site generator
-- **Hugo Blox Academic CV** — theme via Hugo modules
-- **TailwindCSS v4** — styling
-- **Pagefind** — client-side search
-- **GitHub Actions** — CI/CD, deploys to GitHub Pages on every push to `main`
+---
 
-## Local development
+Built with [Hugo](https://gohugo.io) · [Hugo Blox Academic CV](https://github.com/HugoBlox/hugo-theme-academic-cv) · [TailwindCSS v4](https://tailwindcss.com) · [Pagefind](https://pagefind.app)
 
-Requires the `website` conda environment (Hugo, Go, Node.js, pnpm).
-
-```bash
-conda activate website
-export PATH=$PATH:$(pwd)/node_modules/.bin
-hugo server --disableFastRender --port 1313
-```
-
-## Deployment
-
-Push to `main` — GitHub Actions builds and deploys automatically to GitHub Pages.
+Deployed via GitHub Actions → GitHub Pages.
