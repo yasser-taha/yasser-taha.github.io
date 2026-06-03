@@ -77,7 +77,7 @@ links:
     url: "https://youtu.be/U8jF3Og9gwc?si=P_QGwmE_UDG0tVk1"
   - name: "Poster"
     url: "CVPR2026_Poster.pptx"
-  - name: "CVPR Virtual"
+  - name: "CVPR"
     url: "https://cvpr.thecvf.com/virtual/2026/poster/39457"
     icon: hero/computer-desktop
   - name: "arXiv"
