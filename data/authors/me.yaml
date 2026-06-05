@@ -13,7 +13,7 @@ status:
   icon: "🧬"
 role: Machine Learning Researcher · PhD Researcher
 bio: |
-  ML researcher with a track record from production-deployed systems to CVPR-highlighted fundamental research. Expertise in learning under label noise, structured classification, and probabilistic modelling — applied across autonomous systems, pharmaceutical recommender systems, and computational biology.
+  My research sits at the intersection of robust ML and the biomedical domain. Since 2019, it has spanned production pharmaceutical recommenders, RNA biomarker discovery for lung cancer diagnostics, and AI-driven viral infection detection. The underlying methods questions centre on learning under label noise, class ambiguity, and distribution shift, and have produced publications across computational biology and computer vision, including a CVPR 2026 Highlight (top 3.5%).
 
 affiliations:
   - name: Robert Koch Institute

@@ -38,13 +38,13 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a PhD researcher at the **Robert Koch Institute** and **Charité – Universitätsmedizin Berlin**, supervised by **Prof. Grégoire Montavon** (academic supervisor, Charité — AI in Medicine), **Dr. Nils Körber** (group leader, RKI — Image Analysis), and **Dr. Claudia Kohl** (supervisor, RKI — Virological S3 Lab).
+        I am a PhD researcher at the **Robert Koch Institute** and **Charité – Universitätsmedizin Berlin**, supervised by **[Dr. Nils Körber](https://www.rki.de/DE/Institut/Organisation/Abteilungen/ZKI-PH/ZKI-PH3/zki-ph3-bildanalyse-node.html)** (group leader, RKI — Image Analysis), **[Prof. Grégoire Montavon](https://scholar.google.com/citations?user=A979AbYAAAAJ&hl=en)** (academic supervisor, BIFOLD/Charité — AI in Medicine), and **[Dr. Claudia Kohl](https://scholar.google.com/citations?user=5Dtr2nMAAAAJ&hl=de)** (supervisor, RKI — Virological S3 Lab).
 
-        My work is split between **foundational ML research** and its **application to real-world virology**. On the methods side, I develop general-purpose frameworks for learning under difficult label conditions: [Drainage](publications/drainage) (CVPR 2026 Highlight) is a unified framework for handling noisy labels, class ambiguity, and anomalous samples; [Conveyance](publications/conveyance) is a structured loss function for classification over graph-like class hierarchies, covering ordinal regression, hierarchical classification, and multiple instance learning.
+        My current work is split between **foundational ML research** and its **application to real-world virology**. On the methods side, I develop general-purpose frameworks for learning under difficult label conditions: [Drainage](publications/drainage) (CVPR 2026 Highlight) is a unified framework for handling noisy labels, class ambiguity, and anomalous samples; [Conveyance](publications/conveyance) is a structured loss function for classification over graph-like class hierarchies, designed to be domain-agnostic wherever class relationships carry meaningful structure — with particular utility in medical settings where label noise is itself structured.
 
-        On the applied side, I use these and related ideas to build tools for detecting virus-infected cell cultures at RKI — including infections that produce little or no visible cytopathic effect — where label noise, class structure, and distribution shift are practical realities rather than benchmarks.
+        On the applied side, I use these and related ideas to build tools for detecting virus-infected cell cultures at RKI (including infections that produce little or no visible cytopathic effect), where label noise, class structure, and distribution shift are practical realities rather than benchmarks.
 
-        Earlier work spans small RNA biomarker discovery for lung cancer diagnostics (TransfoRNA), pharmaceutical recommender systems via graph neural networks, and unsupervised monocular depth estimation — supervised by **Prof. Sepp Hochreiter** at JKU Linz.
+        Earlier work spans small RNA biomarker discovery for lung cancer diagnostics (TransfoRNA), pharmaceutical recommender systems via graph neural networks, and unsupervised monocular depth estimation, supervised by **[Prof. Sepp Hochreiter](https://scholar.google.com/citations?user=tvUH3WMAAAAJ&hl=en)** at JKU Linz.
 
         Feel free to reach out to discuss collaborations or ideas 📬
     design:
