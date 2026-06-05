@@ -38,13 +38,24 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a PhD researcher at the **Robert Koch Institute** and **Charité – Universitätsmedizin Berlin**, supervised by **[Dr. Nils Körber](https://www.rki.de/DE/Institut/Organisation/Abteilungen/ZKI-PH/ZKI-PH3/zki-ph3-bildanalyse-node.html)** (group leader, RKI — Image Analysis), **[Prof. Grégoire Montavon](https://scholar.google.com/citations?user=A979AbYAAAAJ&hl=en)** (academic supervisor, BIFOLD/Charité — AI in Medicine), and **[Dr. Claudia Kohl](https://scholar.google.com/citations?user=5Dtr2nMAAAAJ&hl=de)** (supervisor, RKI — Virological S3 Lab).
-
-        My current work is split between **foundational ML research** and its **application to real-world virology**. On the methods side, I develop general-purpose frameworks for learning under difficult label conditions: [Drainage](publications/drainage) (CVPR 2026 Highlight) is a unified framework for handling noisy labels, class ambiguity, and anomalous samples; [Conveyance](publications/conveyance) is a structured loss function for classification over graph-like class hierarchies, designed to be domain-agnostic wherever class relationships carry meaningful structure; with particular utility in medical settings where label noise is itself structured.
-
-        On the applied side, I use these and related ideas to build tools for detecting virus-infected cell cultures at RKI (including infections that produce little or no visible cytopathic effect), where label noise, class structure, and distribution shift are practical realities rather than benchmarks.
-
-        Earlier work spans small RNA biomarker discovery for lung cancer diagnostics (TransfoRNA), pharmaceutical recommender systems via graph neural networks, and unsupervised monocular depth estimation, supervised by **[Dr. Bernhard Nessler](https://scholar.google.com/citations?user=H_ICOW4AAAAJ&hl=de)**, and **[Prof. Sepp Hochreiter](https://scholar.google.com/citations?user=tvUH3WMAAAAJ&hl=en)** at JKU Linz.
+        <div class="space-y-5 mt-1">
+          <div class="flex gap-x-6 items-baseline">
+            <div class="shrink-0 w-24 text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">Supervisors</div>
+            <div>I am a PhD researcher at the <strong>Robert Koch Institute</strong> and <strong>Charité – Universitätsmedizin Berlin</strong>, supervised by <strong><a href="https://www.rki.de/DE/Institut/Organisation/Abteilungen/ZKI-PH/ZKI-PH3/zki-ph3-bildanalyse-node.html">Dr. Nils Körber</a></strong> (group leader, RKI, Image Analysis), <strong><a href="https://scholar.google.com/citations?user=A979AbYAAAAJ&hl=en">Prof. Grégoire Montavon</a></strong> (academic supervisor, BIFOLD/Charité, AI in Medicine), and <strong><a href="https://scholar.google.com/citations?user=5Dtr2nMAAAAJ&hl=de">Dr. Claudia Kohl</a></strong> (supervisor, RKI, Virological S3 Lab).</div>
+          </div>
+          <div class="flex gap-x-6 items-baseline">
+            <div class="shrink-0 w-24 text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">Methods</div>
+            <div>On the methods side, I propose general-purpose frameworks for learning under difficult label conditions: <a href="publications/drainage">Drainage</a> (CVPR 2026 Highlight) is a unified framework for handling noisy labels, class ambiguity, and anomalous samples; <a href="publications/conveyance">Conveyance</a> is a structured loss function for classification over graph-like class hierarchies, designed to be domain-agnostic wherever class relationships carry meaningful structure, with particular utility in medical settings where label noise is itself structured.</div>
+          </div>
+          <div class="flex gap-x-6 items-baseline">
+            <div class="shrink-0 w-24 text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">Applied</div>
+            <div>On the applied side, I deploy these methodological contributions to build tools for detecting virus-infected cell cultures at RKI, targeting pathogens including Influenza and Pox viruses (Vaccinia, Cowpox, MPox), as well as infections that produce little or no visible cytopathic effect such as Hantavirus (Puumala), where label noise, class structure, and distribution shift are practical realities rather than benchmarks.</div>
+          </div>
+          <div class="flex gap-x-6 items-baseline">
+            <div class="shrink-0 w-24 text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">Prior Work</div>
+            <div>Earlier work includes an explainable RNA language model for small RNA biomarker annotation and lung cancer diagnostics (<a href="publications/transforna">TransfoRNA</a>); a GNN-based pharmaceutical cross-selling recommender deployed in production, addressing popularity bias in purchasing data (<a href="publications/pharmacy-gnn">PharmasAGE</a>); and an extension of unsupervised monocular depth estimation via joint depth-optical-flow learning (<a href="publications/depth-prediction">Depth Prediction</a>), supervised by <strong><a href="https://scholar.google.com/citations?user=H_ICOW4AAAAJ&hl=de">Dr. Bernhard Nessler</a></strong> and <strong><a href="https://scholar.google.com/citations?user=tvUH3WMAAAAJ&hl=en">Prof. Sepp Hochreiter</a></strong> at JKU Linz.</div>
+          </div>
+        </div>
 
         Feel free to reach out to discuss collaborations or ideas [📬](mailto:tahay@rki.de)
     design:

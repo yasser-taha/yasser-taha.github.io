@@ -44,8 +44,12 @@
         {{ $url = $url | relURL }}
       {{ end }}
     {{ else if in (slice "http" "https") $scheme }}
-      {{ $target = "target=\"_blank\"" }}
       {{ $rel = $rel | append "noopener" }}
+    {{ end }}
+    {{/* Open all non-mailto links in a new tab */}}
+    {{ if ne $scheme "mailto" }}
+      {{ $target = "target=\"_blank\"" }}
+      {{ if not (in $rel "noopener") }}{{ $rel = $rel | append "noopener" }}{{ end }}
     {{ end }}
 
     {{ $classes := printf "hb-attachment-link %s" (cond $is_list "hb-attachment-link-small" "hb-attachment-link-large") }}
@@ -65,7 +69,7 @@
         <span>{{ $label }}</span>
       </button>
     {{ else }}
-      <a class="{{ $classes }}" href="{{ $url | safeURL }}" {{ $target | safeHTMLAttr }} {{ with $rel }}rel="{{ delimit . " " }}"{{ end }}>
+      <a class="{{ $classes }}" href="{{ $url | safeURL }}" target="_blank" rel="noopener">
         {{ partial "functions/get_icon" (dict "name" (.icon | default "hero/link") "attributes" "style=\"height: 1em\" class='inline-block'") }}
         {{ $label }}
       </a>

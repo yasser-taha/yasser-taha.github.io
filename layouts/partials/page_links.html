@@ -34,7 +34,6 @@
   {{ if in .contexts $ctx }}
     {{ $url := .url | default "" }}
     {{ $scheme := (urls.Parse $url).Scheme }}
-    {{ $target := "" }}
     {{ $rel := slice }}
     {{ with .rel }}{{ $rel = . }}{{ end }}
     {{ if not $scheme }}
@@ -44,7 +43,6 @@
         {{ $url = $url | relURL }}
       {{ end }}
     {{ else if in (slice "http" "https") $scheme }}
-      {{ $target = "target=\"_blank\"" }}
       {{ $rel = $rel | append "noopener" }}
     {{ end }}
 
@@ -64,8 +62,13 @@
         {{ partial "functions/get_icon" (dict "name" (.icon | default "hero/document-duplicate") "attributes" "style=\"height: 1em\" class='inline-block'") }}
         <span>{{ $label }}</span>
       </button>
+    {{ else if ne $scheme "mailto" }}
+      <a class="{{ $classes }}" href="{{ $url | safeURL }}" target="_blank" rel="{{ if $rel }}{{ delimit $rel " " }}{{ else }}noopener{{ end }}" data-override="1">
+        {{ partial "functions/get_icon" (dict "name" (.icon | default "hero/link") "attributes" "style=\"height: 1em\" class='inline-block'") }}
+        {{ $label }}
+      </a>
     {{ else }}
-      <a class="{{ $classes }}" href="{{ $url | safeURL }}" {{ $target | safeHTMLAttr }} {{ with $rel }}rel="{{ delimit . " " }}"{{ end }}>
+      <a class="{{ $classes }}" href="{{ $url | safeURL }}"{{ with $rel }} rel="{{ delimit . " " }}"{{ end }}>
         {{ partial "functions/get_icon" (dict "name" (.icon | default "hero/link") "attributes" "style=\"height: 1em\" class='inline-block'") }}
         {{ $label }}
       </a>
