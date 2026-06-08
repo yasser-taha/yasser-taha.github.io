@@ -41,7 +41,7 @@ education:
     date_start: 2017-09-01
     date_end: 2018-07-01
     summary: |
-      Thesis: "Trajectory Prediction in the Realm of Sparse Data". Full Scholarship. Supervised by Prof. Sepp Hochreiter. Thesis GPA: 2.0.
+      Thesis: "Trajectory Prediction in the Realm of Sparse Data". Full Scholarship. Supervised by Dr. B. Moser and Prof. B. Buchberger. Thesis GPA: 2.0.
   - area: PgDip Embedded Systems
     institution: Information Technology Institute, Cairo
     date_start: 2015-10-01

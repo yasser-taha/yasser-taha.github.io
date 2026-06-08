@@ -55,7 +55,7 @@ education:
     end: 2018-07
     summary: |
       Thesis: "Trajectory Prediction in the Realm of Sparse Data".
-      Full Scholarship. Supervised by Prof. Sepp Hochreiter. Thesis GPA: 2.0.
+      Full Scholarship. Supervised by Dr. B. Moser and Prof. B. Buchberger. Thesis GPA: 2.0.
   - degree: BSc Mechatronics Engineering
     institution: German University in Cairo
     start: 2008-09
@@ -99,7 +99,7 @@ experience:
     start: 2018-08-01
     end: 2019-09-01
     summary: |
-      Supervised by Prof. Sepp Hochreiter. Unsupervised depth estimation from
+      Supervised by Dr. Bernhard Nessler and Prof. Sepp Hochreiter. Unsupervised depth estimation from
       monocular image sequences. Methods: Computer Vision, Flow Nets, Convolutional Autoencoders.
   - role: Algorithm Engineer — Autonomous Vehicles
     org: Valeo
