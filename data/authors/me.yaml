@@ -71,7 +71,9 @@ experience:
     summary: |
       Leading development of an AI-driven tool for identifying infected cell
       cultures, including those caused by viruses with limited or no visible
-      cytopathic effect (CPE). Methods: ViLSTM, Vision Transformer, Conformal Prediction.
+      cytopathic effect (CPE).
+
+      *Methods: ViLSTM, Vision Transformer, Conformal Prediction.*
   - role: Machine Learning Researcher
     org: HB-DX Diagnostics
     start: 2021-04-01
@@ -79,35 +81,43 @@ experience:
     summary: |
       Discovery of RNA biomarkers for early lung cancer detection from blood
       biopsy (0.76–0.81 AUCROC). Developed the TransfoRNA explainable ML
-      framework. Methods: Transformers, Explainability, Contrastive Learning, Multimodality.
+      framework.
+
+      *Methods: Transformers, Explainability, Contrastive Learning, Multimodality.*
   - role: Machine Learning R&D Engineer
     org: Cognigy
     start: 2020-10-01
     end: 2021-04-01
     summary: |
       Developed ConveRT's state-of-the-art language model for intent detection.
-      Methods: NLP, Transformers, Unsupervised Learning, Generative Models.
+
+      *Methods: NLP, Transformers, Unsupervised Learning, Generative Models.*
   - role: Machine Learning Researcher
     org: STTech (TUM)
     start: 2019-10-01
     end: 2020-09-01
     summary: |
       Pharmaceutical cross-selling recommender system deployed in production at
-      Pharmatechnic. Methods: Bayesian Statistics, GNNs, Autoencoders, Contrastive Learning.
+      Pharmatechnic.
+
+      *Methods: Bayesian Statistics, GNNs, Autoencoders, Contrastive Learning.*
   - role: Research Assistant
     org: Institute of Machine Learning, JKU Linz
     start: 2018-08-01
     end: 2019-09-01
     summary: |
       Supervised by Dr. Bernhard Nessler and Prof. Sepp Hochreiter. Unsupervised depth estimation from
-      monocular image sequences. Methods: Computer Vision, Flow Nets, Convolutional Autoencoders.
+      monocular image sequences.
+
+      *Methods: Computer Vision, Flow Nets, Convolutional Autoencoders.*
   - role: Algorithm Engineer — Autonomous Vehicles
     org: Valeo
     start: 2016-07-01
     end: 2017-08-01
     summary: |
       LiDAR calibration and 3D point cloud ground detection deployed in production.
-      Methods: Computational Geometry, 3D Point Cloud, Kalman Filters.
+
+      *Methods: Computational Geometry, 3D Point Cloud, Kalman Filters.*
   - role: Teaching Assistant
     org: German University in Cairo
     start: 2014-05-01
