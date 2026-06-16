@@ -13,7 +13,7 @@ status:
   icon: "🧬"
 role: Machine Learning PhD Researcher
 bio: |
-     Seven years of R&D, three production deployments — algorithms in autonomous vehicles, a pharmaceutical recommender system, and small RNA biomarkers for lung cancer diagnostics — and now building viral infection diagnostics at the Robert Koch Institute. The common thread: clean ground truth is rarely available in biology, and building methods that are robust to that constraint is where my research keeps returning. That work is published across computational biology and computer vision, including a CVPR 2026 Highlight (top 3.5%).
+    Seven years of R&D, four production deployments — ground detection and depth estimation algorithms in autonomous vehicles, a pharmaceutical recommender system, and small RNA biomarkers for lung cancer diagnostics — and now building viral infection diagnostics at the Robert Koch Institute. The common thread: clean ground truth is rarely available in biology, and building methods that are robust to that constraint is where my research keeps returning. That work is published across computational biology and computer vision, including a CVPR 2026 Highlight (top 3.5%).
 affiliations:
   - name: Robert Koch Institute
     url: https://www.rki.de/
@@ -52,7 +52,7 @@ education:
     institution: Industry
     start: 2018-10
     end: 2024-07
-    summary: Three projects from research to production.
+    summary: Four projects from research to production.
     icon: briefcase
     separator: true
   - degree: MSc Data Science
