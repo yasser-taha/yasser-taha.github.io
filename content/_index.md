@@ -49,7 +49,7 @@ sections:
           </div>
           <div class="flex gap-x-6 items-baseline">
             <div class="shrink-0 w-24 text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">Applied</div>
-            <div>On the applied side, I deploy these methodological contributions to build tools for detecting virus-infected cell cultures at RKI, targeting pathogens including Influenza and Pox viruses (Vaccinia, Cowpox, MPox), as well as infections that produce little or no visible cytopathic effect such as Hantavirus (Puumala), where label noise, class structure, and distribution shift are practical realities rather than benchmarks.</div>
+            <div>The application domain is viral diagnostics: detecting infected cell cultures at RKI, including pathogens that produce little or no visible cytopathic effect, where label noise, class structure, and distribution shift are practical realities rather than benchmarks.</div>
           </div>
           <div class="flex gap-x-6 items-baseline">
             <div class="shrink-0 w-24 text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">Prior Work</div>

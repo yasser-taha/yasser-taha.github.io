@@ -13,8 +13,7 @@ status:
   icon: "🧬"
 role: Machine Learning PhD Researcher
 bio: |
-  My research sits at the intersection of robust ML and the biomedical domain. Since 2019, it has spanned production pharmaceutical recommenders, RNA biomarker discovery for lung cancer diagnostics, and AI-driven viral infection detection. What unites these problems is that clean ground truth is rarely available in biology, and building methods that hold up under this constraint is both the recurring challenge and the focus of my research, published across computational biology and computer vision, including a CVPR 2026 Highlight (top 3.5%).
-
+     Seven years of R&D, three production deployments — algorithms in autonomous vehicles, a pharmaceutical recommender system, and small RNA biomarkers for lung cancer diagnostics — and now building viral infection diagnostics at the Robert Koch Institute. The common thread: clean ground truth is rarely available in biology, and building methods that are robust to that constraint is where my research keeps returning. That work is published across computational biology and computer vision, including a CVPR 2026 Highlight (top 3.5%).
 affiliations:
   - name: Robert Koch Institute
     url: https://www.rki.de/
@@ -36,10 +35,10 @@ links:
 
 interests:
   - Computational Biology
+  - Diagnostics
   - Deep Learning & Computer Vision
   - Probabilistic & Bayesian Models
   - Natural Language Processing
-  - Autonomous Systems
 
 education:
   - degree: PhD Advanced Track
@@ -49,6 +48,11 @@ education:
     summary: |
       AI-driven detection of virus-infected cell cultures using imaging and
       deep learning. Affiliated with the Robert Koch Institute.
+  - degree: Machine Learning R&D
+    institution: Industry
+    start: 2018-10
+    end: 2024-07
+    summary: Three projects from research to production.
   - degree: MSc Data Science
     institution: Johannes Kepler University Linz
     start: 2017-09
