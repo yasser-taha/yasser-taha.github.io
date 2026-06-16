@@ -53,6 +53,8 @@ education:
     start: 2018-10
     end: 2024-07
     summary: Three projects from research to production.
+    icon: briefcase
+    separator: true
   - degree: MSc Data Science
     institution: Johannes Kepler University Linz
     start: 2017-09
