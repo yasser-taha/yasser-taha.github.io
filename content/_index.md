@@ -41,7 +41,7 @@ sections:
         <div class="space-y-5 mt-1">
           <div class="flex gap-x-6 items-baseline">
             <div class="shrink-0 w-24 text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">Supervisors</div>
-            <div>I am a PhD researcher at the <strong>Robert Koch Institute</strong> and <strong>Charité – Universitätsmedizin Berlin</strong>, supervised by <strong><a href="https://www.rki.de/DE/Institut/Organisation/Abteilungen/ZKI-PH/ZKI-PH3/zki-ph3-bildanalyse-node.html">Dr. Nils Körber (group leader, RKI) </a></strong> and <strong><a href="https://scholar.google.com/citations?user=5Dtr2nMAAAAJ&hl=de">Dr. Claudia Kohl</a></strong> (virological expert, RKI) and <strong><a href="https://www.bifold.berlin/people/prof-dr-gregoire-montavon.html">Prof. Grégoire Montavon (academic supervisor, BIFOLD/Charité) </a></strong> (BIFOLD/Charité).</div>
+            <div>I am a PhD researcher at the <strong>Robert Koch Institute</strong> and <strong>Charité – Universitätsmedizin Berlin</strong>, supervised by <strong><a href="https://www.rki.de/DE/Institut/Organisation/Abteilungen/ZKI-PH/ZKI-PH3/zki-ph3-bildanalyse-node.html">Dr. Nils Körber</a></strong> (group leader, RKI)  and <strong><a href="https://scholar.google.com/citations?user=5Dtr2nMAAAAJ&hl=de">Dr. Claudia Kohl</a></strong> (virological expert, RKI) and <strong><a href="https://www.bifold.berlin/people/prof-dr-gregoire-montavon.html">Prof. Grégoire Montavon</a></strong> (academic supervisor, BIFOLD/Charité).</div>
           </div>
           <div class="flex gap-x-6 items-baseline">
             <div class="shrink-0 w-24 text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">Methods</div>
