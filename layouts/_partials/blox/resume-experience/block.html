@@ -141,7 +141,8 @@
         {{ with index $button_raw "icon" }}{{ $button_icon = strings.TrimSpace (printf "%v" .) }}{{ end }}
       {{ end }}
 
-      {{ if or $degree $institution }}
+      {{/* Skip entries with an explicit icon — these are industry bridging entries for the biography block only */}}
+      {{ if and (or $degree $institution) (not $icon) }}
         {{ $education = $education | append (dict "degree" $degree "institution" $institution "start" $start "end" $end "summary" $summary "icon" $icon "separator" $separator "button" (dict "url" $button_url "text" $button_text "icon" $button_icon)) }}
       {{ end }}
     {{ end }}

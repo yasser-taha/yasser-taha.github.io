@@ -17,7 +17,7 @@ sections:
         url: uploads/resume.pdf
       headings:
         about: ''
-        education: ''
+        education: 'Background'
         interests: ''
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
