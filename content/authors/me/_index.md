@@ -14,8 +14,8 @@ organizations:
 
 profiles:
   - icon: at-symbol
-    url: 'mailto:tahay@rki.de'
-    label: RKI Email
+    url: 'mailto:ysr.mahmoud@gmail.com'
+    label: Personal Email
   - icon: at-symbol
     url: 'mailto:ysr.mahmoud@gmail.com'
     label: Personal Email
