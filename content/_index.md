@@ -45,7 +45,7 @@ sections:
           </div>
           <div class="flex gap-x-6 items-baseline">
             <div class="shrink-0 w-24 text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">Methods</div>
-            <div>On the methods side, I propose general-purpose frameworks for learning under difficult label conditions: <a href="publications/drainage">Drainage</a> (CVPR 2026 Highlight) is a unified framework for handling noisy labels, class ambiguity, and anomalous samples; <a href="publications/conveyance">Conveyance</a> is a structured loss function for classification over graph-like class hierarchies, designed to be domain-agnostic wherever class relationships carry meaningful structure, with particular utility in medical settings where label noise is itself structured.</div>
+            <div>On the methods side, I propose general-purpose frameworks for learning under difficult label conditions: <a href="publications/drainage">Drainage</a> (CVPR 2026 Highlight) is a unified framework for handling noisy labels, class ambiguity, and anomalous samples; <a href="publications/conveyance">Conveyance</a> (NeurIPS 2026) is a structured loss function for classification over graph-like class hierarchies, designed to be domain-agnostic wherever class relationships carry meaningful structure, with particular utility in medical settings where label noise is itself structured.</div>
           </div>
           <div class="flex gap-x-6 items-baseline">
             <div class="shrink-0 w-24 text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">Applied</div>

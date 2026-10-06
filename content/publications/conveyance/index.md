@@ -13,9 +13,13 @@ author_notes:
 date: '2026-05-27T00:00:00Z'
 publishDate: '2026-05-27T00:00:00Z'
 
-publication_types: ['article']
+publication_types: ['paper-conference']
 
-peer_reviewed: false
+publication:
+  name: "Conference on Neural Information Processing Systems (NeurIPS)"
+  short_name: "NeurIPS 2026"
+
+peer_reviewed: true
 open_access: true
 license: CC-BY-4.0
 
@@ -40,7 +44,7 @@ summary: >
   Conveyance is a new loss function and classification framework for structured
   class spaces that encodes graph-like class relations without manual tuning,
   achieving state-of-the-art results across hierarchical classification, ordinal
-  regression, and multiple instance learning.
+  regression, and multiple instance learning. Accepted at NeurIPS 2026.
 
 tags:
   - Structured Class Spaces
